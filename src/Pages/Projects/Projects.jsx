@@ -1,9 +1,9 @@
 import React from "react";
 import NavigationBar from "../../Components/NavigationBar/NavigationBar";
-// import Recipe from ".../images/Recipe.jpg";
-// import Netflix from ".../images/Netflix.jpg";
-// import Ecommerce from ".../images/Ecommerce.jpg";
-// import Game from ".../images/Game.jpg";
+import Recipe from "./Recipe.jpg";
+import Netflix from "./Netflix.jpg";
+import Ecommerce from "./Ecommerce.jpg";
+import Game from "./Game.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
@@ -39,7 +39,7 @@ function Projects() {
             xs={12}
           >
             <a href="https://foodee-x.herokuapp.com/">
-              {/* <img src={Recipe} alt="ss" /> */}
+              <img src={Recipe} alt="ss" />
             </a>
           </Col>
           <Col
@@ -49,7 +49,7 @@ function Projects() {
             xs={12}
           >
             <a href="https://rishad1997.github.io/netflix/">
-              {/* <img src={Netflix} alt="ss" /> */}
+              <img src={Netflix} alt="ss" />
             </a>
           </Col>
           <Col
@@ -59,7 +59,7 @@ function Projects() {
             xs={12}
           >
             <a href="https://rishad1997.github.io/netflix/">
-              {/* <img src={Ecommerce} alt="ss" /> */}
+              <img src={Ecommerce} alt="ss" />
             </a>
           </Col>
           <Col
@@ -69,7 +69,7 @@ function Projects() {
             xs={12}
           >
             <a href="https://rishad1997.github.io/Simon-Game/">
-              {/* <img src={Game} alt="ss" /> */}
+              <img src={Game} alt="ss" />
             </a>
           </Col>
         </Row>
