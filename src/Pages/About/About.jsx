@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationBar from "../../Components/NavigationBar/NavigationBar";
 import Button from "react-bootstrap/Button";
-import CV from "F:/React app/myPortfolio/src/images/Resume.pdf";
+// import CV from "F:/React app/myPortfolio/src/images/Resume.pdf";
 import { motion } from "framer-motion";
 import "./About.css";
 
@@ -35,11 +35,11 @@ function About() {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum
         </p>
-        <a href={CV} download="Resume" className="download-link">
-          <Button variant="danger" className="download-button">
-            Download CV
-          </Button>
-        </a>
+        {/* <a href={CV} download="Resume" className="download-link"> */}
+        <Button variant="danger" className="download-button">
+          Download CV
+        </Button>
+        {/* </a> */}
       </div>
     </motion.div>
   );
