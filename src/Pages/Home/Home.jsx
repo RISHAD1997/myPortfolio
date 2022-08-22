@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import myLogo from ".../images/pic1.png";
+// import myLogo from ".../images/pic1.png";
 import Button from "react-bootstrap/Button";
 import "./Home.css";
 import NavigationBar from "../../Components/NavigationBar/NavigationBar";
@@ -77,11 +77,11 @@ function Home() {
             xs={{ span: 12, order: "first" }}
             md={{ span: 12, order: "first" }}
           >
-            <img
+            {/* <img
               className="d-flex justify-content-md-center"
               src={myLogo}
               alt="Logo"
-            />
+            /> */}
           </Col>
         </Row>
       </div>
