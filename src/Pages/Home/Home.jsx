@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import myLogo from "F:/React app/myPortfolio/src/images/pic1.png";
+import myLogo from ".../images/pic1.png";
 import Button from "react-bootstrap/Button";
 import "./Home.css";
 import NavigationBar from "../../Components/NavigationBar/NavigationBar";

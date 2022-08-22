@@ -1,9 +1,9 @@
 import React from "react";
 import NavigationBar from "../../Components/NavigationBar/NavigationBar";
-import Recipe from "F:/React app/myPortfolio/src/images/Recipe.jpg";
-import Netflix from "F:/React app/myPortfolio/src/images/Netflix.jpg";
-import Ecommerce from "F:/React app/myPortfolio/src/images/Ecommerce.jpg";
-import Game from "F:/React app/myPortfolio/src/images/Game.jpg";
+import Recipe from ".../images/Recipe.jpg";
+import Netflix from ".../images/Netflix.jpg";
+import Ecommerce from ".../images/Ecommerce.jpg";
+import Game from ".../images/Game.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
