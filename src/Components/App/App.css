@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.margin {
+  margin: 5% 15%;
+}

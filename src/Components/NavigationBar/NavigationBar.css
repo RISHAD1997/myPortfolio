@@ -1,0 +1,16 @@
+.navBrand {
+  text-decoration: none;
+}
+.navLink {
+  text-decoration: none;
+  padding: 7px;
+  color: rgb(178, 175, 175);
+}
+
+.navLink:hover {
+  color: #c21010;
+}
+#responsive-navbar-nav {
+  text-align: center;
+  z-index: 10;
+}

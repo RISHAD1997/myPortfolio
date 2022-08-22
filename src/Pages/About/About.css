@@ -1,0 +1,32 @@
+@media screen and (min-width: 821px) {
+    .about{
+        margin: 5% 15%;
+    }
+    
+    h2{
+        font-weight: bold;
+    }
+}
+
+
+@media only screen and (min-width: 481px ) and (max-device-width: 820px){
+    .about{
+        margin: 10% 10%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .about{
+        margin: 10% 10%;
+    }
+    .download-link{
+        display: flex;
+        justify-content: center;
+       text-decoration: none;
+    }
+    .download-button{
+        background-color:#C21010;
+         margin-top:25px;
+    }
+}
+

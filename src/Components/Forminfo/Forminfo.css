@@ -1,0 +1,24 @@
+@media only screen and (min-width: 481px) and (max-device-width: 820px) {
+  .textbox {
+    margin-bottom: 15px;
+  }
+  .row {
+    margin: 0;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .textbox {
+    margin-bottom: 15px;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

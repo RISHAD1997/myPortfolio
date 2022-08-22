@@ -1,0 +1,52 @@
+.contact {
+  margin: 5% 15%;
+}
+
+.icons {
+  font-size: 26px;
+  margin-right: 3rem;
+  color: #c21010;
+}
+
+table {
+  margin-top: 10%;
+}
+
+table td {
+  line-height: 0.5;
+}
+table h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.heading {
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 481px) and (max-device-width: 820px) {
+  table {
+    margin: 15% 5%;
+  }
+  .heading {
+    margin-top: 15%;
+  }
+  .row {
+    margin: 0;
+  }
+  .contact {
+    margin: 5% 10%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact {
+    margin: 10% 5%;
+  }
+  .heading {
+    margin-left: 10px;
+  }
+  table {
+    margin: 15% 5%;
+  }
+}

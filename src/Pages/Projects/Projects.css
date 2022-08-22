@@ -1,0 +1,43 @@
+.projects {
+  margin: 5% 15%;
+}
+.row-margin {
+  margin: 0 10%;
+}
+
+.image-box {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image-box img {
+  transition: transform 0.3s;
+  overflow: hidden;
+  border-radius: 5%;
+  width: 240px;
+  height: 200px;
+}
+
+.image-box :hover img {
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 481px) and (max-device-width: 820px) {
+  .projects {
+    margin: 10% 10%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image-box img {
+    width: 200px;
+    height: 160px;
+  }
+  .projects {
+    margin: 10% 15%;
+  }
+  .row-margin {
+    margin: 0 10%;
+  }
+}
