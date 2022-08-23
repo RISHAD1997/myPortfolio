@@ -18,7 +18,7 @@
   }
   .details h1 {
     font-weight: 700;
-    width: 350px;
+    width: 450px;
   }
   .heading-color {
     color: #c21010;
@@ -32,7 +32,7 @@
   }
   .image img {
     margin-left: 250px;
-    margin-top: 25%;
+    margin-top: 24%;
   }
 }
 

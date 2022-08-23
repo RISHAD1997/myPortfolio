@@ -25,15 +25,18 @@ function About() {
       <div className="about">
         <h2 style={{ marginBottom: "5%", fontWeight: "bold" }}>About</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum
+          Every person has their own unique story. Here is a glimpse into mine.
+          <br />
+          <br />
+          My name is Rishad P I am currently a Graduate Fellow. I compeleted my
+          B-tech in Information Technology at college Of Engineering,
+          Thalassery. I’ve worked hard in my education and now I’m ready to
+          apply my knowledge into practice. I have a 6 month of experience in
+          web development and also i completed MERN stack cource through online
+          <br />
+          <br />
+          Now, I’m looking to leverage everything I’ve learned and get some
+          hands-on work experience.
         </p>
         <a href={CV} download="Resume" className="download-link">
           <Button variant="danger" className="download-button">

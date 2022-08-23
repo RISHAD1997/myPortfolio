@@ -52,7 +52,7 @@ function Skills() {
 
               <div className="Bar">
                 <div className="info">
-                  <span>HTML</span>
+                  <span>CSS</span>
                 </div>
                 <div className="progress-line css">
                   <span></span>
@@ -61,7 +61,16 @@ function Skills() {
 
               <div className="Bar">
                 <div className="info">
-                  <span>HTML</span>
+                  <span>Bootstrap</span>
+                </div>
+                <div className="progress-line bootstrap">
+                  <span></span>
+                </div>
+              </div>
+
+              <div className="Bar">
+                <div className="info">
+                  <span>JavaScript</span>
                 </div>
                 <div className="progress-line javascript">
                   <span></span>
@@ -70,7 +79,7 @@ function Skills() {
 
               <div className="Bar">
                 <div className="info">
-                  <span>HTML</span>
+                  <span>React js</span>
                 </div>
                 <div className="progress-line react-js">
                   <span></span>
@@ -79,7 +88,7 @@ function Skills() {
 
               <div className="Bar">
                 <div className="info">
-                  <span>HTML</span>
+                  <span>Node js</span>
                 </div>
                 <div className="progress-line node-js">
                   <span></span>
@@ -88,7 +97,16 @@ function Skills() {
 
               <div className="Bar">
                 <div className="info">
-                  <span>HTML</span>
+                  <span>Python</span>
+                </div>
+                <div className="progress-line python">
+                  <span></span>
+                </div>
+              </div>
+
+              <div className="Bar">
+                <div className="info">
+                  <span>Git</span>
                 </div>
                 <div className="progress-line git">
                   <span></span>

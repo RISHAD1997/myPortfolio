@@ -53,9 +53,8 @@ function Home() {
               </span>
             </h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+              I want to be a Web developer in an organization that helps me to
+              learn and apply latest trends in software development.
             </p>
             <div className="buttons">
               <NavLink to="/Contact">

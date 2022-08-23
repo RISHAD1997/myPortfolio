@@ -73,16 +73,22 @@
   width: 100%;
 }
 .progress-line.css span {
-  width: 50%;
+  width: 80%;
+}
+.progress-line.bootstrap span {
+  width: 90%;
 }
 .progress-line.javascript span {
   width: 70%;
 }
 .progress-line.react-js span {
-  width: 60%;
+  width: 70%;
 }
 .progress-line.node-js span {
-  width: 90%;
+  width: 60%;
+}
+.progress-line.python span {
+  width: 60%;
 }
 .progress-line.git span {
   width: 80%;
@@ -123,16 +129,22 @@
   content: "100%";
 }
 .progress-line.css span::after {
-  content: "50%";
+  content: "80%";
+}
+.progress-line.bootstrap span::after {
+  content: "90%";
 }
 .progress-line.javascript span::after {
   content: "70%";
 }
 .progress-line.react-js span::after {
-  content: "60%";
+  content: "70%";
 }
 .progress-line.node-js span::after {
-  content: "90%";
+  content: "60%";
+}
+.progress-line.python span::after {
+  content: "60%";
 }
 .progress-line.git span::after {
   content: "80%";

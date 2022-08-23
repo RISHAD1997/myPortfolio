@@ -9,17 +9,28 @@ import "./Forminfo.css";
 function Forminfo() {
   return (
     <div>
-      <form action="https://formspree.io/f/xbjbjqwq" method="POST">
+      <form
+        action="https://formspree.io/f/xbjbjqwq"
+        method="POST"
+        autoComplete="off"
+      >
         <Row style={{ marginTop: "0" }}>
           <h4>Message me</h4>
           <Col xs={12} lg={6} className="textbox">
-            <Form.Control type="text" placeholder="Name" name="name" required />
+            <Form.Control
+              type="text"
+              placeholder="Name"
+              name="name"
+              autoComplete="false"
+              required
+            />
           </Col>
           <Col xs={12} lg={6} className="textbox">
             <Form.Control
               type="email"
               placeholder="Email"
               name="email"
+              autoComplete="new-password"
               required
             />
           </Col>
