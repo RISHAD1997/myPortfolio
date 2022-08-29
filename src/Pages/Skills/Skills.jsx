@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
 import "./Skills.css";
+import Footer from "../../Components/Footer/Footer";
 
 function Skills() {
   return (
@@ -115,6 +116,9 @@ function Skills() {
             </div>
           </Col>
         </Row>
+      </div>
+      <div className="footerAdjust">
+        <Footer />
       </div>
     </motion.div>
   );

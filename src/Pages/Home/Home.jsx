@@ -8,6 +8,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
+import Footer from "../../Components/Footer/Footer";
 
 function Home() {
   return (
@@ -84,6 +85,7 @@ function Home() {
           </Col>
         </Row>
       </div>
+      <Footer />
     </motion.div>
   );
 }

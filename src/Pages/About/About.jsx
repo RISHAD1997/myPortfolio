@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import CV from "./Resume.pdf";
 import { motion } from "framer-motion";
 import "./About.css";
+import Footer from "../../Components/Footer/Footer";
 
 function About() {
   return (
@@ -44,6 +45,7 @@ function About() {
           </Button>
         </a>
       </div>
+      <Footer />
     </motion.div>
   );
 }

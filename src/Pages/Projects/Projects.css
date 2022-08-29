@@ -6,7 +6,6 @@
 }
 
 .image-box {
-  overflow: hidden;
   cursor: pointer;
 }
 
@@ -18,9 +17,22 @@
   height: 200px;
 }
 
-.image-box :hover img {
-  transform: scale(1.2);
-  transform-origin: 50% 50%;
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #c21010;
+}
+
+.box {
+  background-color: #ffc4c4;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 200px;
   border-radius: 5px;
 }
 @media only screen and (min-width: 481px) and (max-device-width: 820px) {

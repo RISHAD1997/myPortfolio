@@ -7,9 +7,16 @@ import Game from "./Game.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
+import { useState } from "react";
 import "./Projects.css";
+import Footer from "../../Components/Footer/Footer";
 
 function Projects() {
+  const [isFlipped, setIsflipped] = useState(false);
+
+  const handleHover = () => {
+    setIsflipped(!isFlipped);
+  };
   return (
     <motion.div
       animate={{
@@ -38,9 +45,19 @@ function Projects() {
             md={6}
             xs={12}
           >
-            <a href="https://foodee-x.herokuapp.com/">
-              <img src={Recipe} alt="ss" />
-            </a>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{
+                type: "spring",
+                stiffness: 400,
+                damping: 10,
+              }}
+            >
+              <a href="https://foodee-x.herokuapp.com/">
+                <img onMouseEnter={handleHover} src={Recipe} alt="ss" />
+                <p style={{ textAlign: "center" }}>Recipe Search App</p>
+              </a>
+            </motion.div>
           </Col>
           <Col
             className="d-flex justify-content-center mb-4 image-box"
@@ -48,9 +65,19 @@ function Projects() {
             md={6}
             xs={12}
           >
-            <a href="https://rishad1997.github.io/netflix/">
-              <img src={Netflix} alt="ss" />
-            </a>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{
+                type: "spring",
+                stiffness: 400,
+                damping: 10,
+              }}
+            >
+              <a href="https://rishad1997.github.io/netflix/">
+                <img onMouseEnter={handleHover} src={Netflix} alt="ss" />
+                <p style={{ textAlign: "center" }}>Netflix clone</p>
+              </a>
+            </motion.div>
           </Col>
           <Col
             className="d-flex justify-content-center mb-4 image-box"
@@ -58,9 +85,19 @@ function Projects() {
             md={6}
             xs={12}
           >
-            <a href="https://rishad1997.github.io/netflix/">
-              <img src={Ecommerce} alt="ss" />
-            </a>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{
+                type: "spring",
+                stiffness: 400,
+                damping: 10,
+              }}
+            >
+              <a href="https://rishad1997.github.io/netflix/">
+                <img src={Ecommerce} alt="ss" />
+                <p style={{ textAlign: "center" }}>Ecommerce App</p>
+              </a>
+            </motion.div>
           </Col>
           <Col
             className="d-flex justify-content-center mb-4 image-box"
@@ -68,12 +105,23 @@ function Projects() {
             md={6}
             xs={12}
           >
-            <a href="https://rishad1997.github.io/Simon-Game/">
-              <img src={Game} alt="ss" />
-            </a>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{
+                type: "spring",
+                stiffness: 400,
+                damping: 10,
+              }}
+            >
+              <a href="https://rishad1997.github.io/Simon-Game/">
+                <img src={Game} alt="ss" />
+                <p style={{ textAlign: "center" }}>Memmory Game</p>
+              </a>
+            </motion.div>
           </Col>
         </Row>
       </div>
+      <Footer />
     </motion.div>
   );
 }

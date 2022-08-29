@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import Forminfo from "../../Components/Forminfo/Forminfo";
 import { motion } from "framer-motion";
 import "./Contact.css";
+import Footer from "../../Components/Footer/Footer";
 
 function Contact() {
   return (
@@ -78,6 +79,7 @@ function Contact() {
           </Col>
         </Row>
       </div>
+      <Footer />
     </motion.div>
   );
 }

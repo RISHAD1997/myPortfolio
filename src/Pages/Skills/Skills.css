@@ -9,7 +9,7 @@
   font-weight: bold;
 }
 .row {
-  margin: 5% 4%;
+  margin: 2% 4%;
   padding: 0;
 }
 .skillBar {
@@ -70,7 +70,7 @@
 }
 
 .progress-line.html span {
-  width: 100%;
+  width: 80%;
 }
 .progress-line.css span {
   width: 80%;
@@ -79,13 +79,13 @@
   width: 90%;
 }
 .progress-line.javascript span {
-  width: 70%;
+  width: 60%;
 }
 .progress-line.react-js span {
-  width: 70%;
+  width: 60%;
 }
 .progress-line.node-js span {
-  width: 60%;
+  width: 50%;
 }
 .progress-line.python span {
   width: 60%;
@@ -126,7 +126,7 @@
   }
 }
 .progress-line.html span::after {
-  content: "100%";
+  content: "80%";
 }
 .progress-line.css span::after {
   content: "80%";
@@ -135,13 +135,13 @@
   content: "90%";
 }
 .progress-line.javascript span::after {
-  content: "70%";
+  content: "60%";
 }
 .progress-line.react-js span::after {
-  content: "70%";
+  content: "60%";
 }
 .progress-line.node-js span::after {
-  content: "60%";
+  content: "50%";
 }
 .progress-line.python span::after {
   content: "60%";
@@ -178,5 +178,8 @@
   }
   .description h4 {
     text-align: center;
+  }
+  .footerAdjust {
+    margin-top: 20px;
   }
 }
