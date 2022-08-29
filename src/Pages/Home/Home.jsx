@@ -9,6 +9,7 @@ import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import Footer from "../../Components/Footer/Footer";
+import Slide from "react-reveal/Slide";
 
 function Home() {
   return (
@@ -53,10 +54,12 @@ function Home() {
                 />
               </span>
             </h1>
-            <p>
-              I want to be a Web developer in an organization that helps me to
-              learn and apply latest trends in software development.
-            </p>
+            <Slide left>
+              <p>
+                I want to be a Web developer in an organization that helps me to
+                learn and apply latest trends in software development.
+              </p>
+            </Slide>
             <div className="buttons">
               <NavLink to="/Contact">
                 <Button variant="danger" className="buttons danger">
@@ -77,11 +80,13 @@ function Home() {
             xs={{ span: 12, order: "first" }}
             md={{ span: 12, order: "first" }}
           >
-            <img
-              className="d-flex justify-content-md-center"
-              src={myLogo}
-              alt="Logo"
-            />
+            <Slide right>
+              <img
+                className="d-flex justify-content-md-center"
+                src={myLogo}
+                alt="Logo"
+              />
+            </Slide>
           </Col>
         </Row>
       </div>

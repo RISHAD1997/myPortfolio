@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import "./Projects.css";
 import Footer from "../../Components/Footer/Footer";
+import Slide from "react-reveal/Slide";
 
 function Projects() {
   const [isFlipped, setIsflipped] = useState(false);
@@ -38,90 +39,94 @@ function Projects() {
         <b>Projects</b>
       </h2>
       <div className="row-margin">
-        <Row className="mt-5">
-          <Col
-            className="d-flex justify-content-center mb-4 image-box"
-            lg={3}
-            md={6}
-            xs={12}
-          >
-            <motion.div
-              whileHover={{ scale: 1.1 }}
-              transition={{
-                type: "spring",
-                stiffness: 400,
-                damping: 10,
-              }}
+        <Slide bottom>
+          <Row className="mt-5">
+            <Col
+              className="d-flex justify-content-center mb-4 image-box"
+              lg={3}
+              md={6}
+              xs={12}
             >
-              <a href="https://foodee-x.herokuapp.com/">
-                <img onMouseEnter={handleHover} src={Recipe} alt="ss" />
-                <p style={{ textAlign: "center" }}>Recipe Search App</p>
-              </a>
-            </motion.div>
-          </Col>
-          <Col
-            className="d-flex justify-content-center mb-4 image-box"
-            lg={3}
-            md={6}
-            xs={12}
-          >
-            <motion.div
-              whileHover={{ scale: 1.1 }}
-              transition={{
-                type: "spring",
-                stiffness: 400,
-                damping: 10,
-              }}
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 400,
+                  damping: 10,
+                }}
+              >
+                <a href="https://foodee-x.herokuapp.com/">
+                  <img onMouseEnter={handleHover} src={Recipe} alt="ss" />
+                  <p style={{ textAlign: "center" }}>Recipe Search App</p>
+                </a>
+              </motion.div>
+            </Col>
+            <Col
+              className="d-flex justify-content-center mb-4 image-box"
+              lg={3}
+              md={6}
+              xs={12}
             >
-              <a href="https://rishad1997.github.io/netflix/">
-                <img onMouseEnter={handleHover} src={Netflix} alt="ss" />
-                <p style={{ textAlign: "center" }}>Netflix clone</p>
-              </a>
-            </motion.div>
-          </Col>
-          <Col
-            className="d-flex justify-content-center mb-4 image-box"
-            lg={3}
-            md={6}
-            xs={12}
-          >
-            <motion.div
-              whileHover={{ scale: 1.1 }}
-              transition={{
-                type: "spring",
-                stiffness: 400,
-                damping: 10,
-              }}
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 400,
+                  damping: 10,
+                }}
+              >
+                <a href="https://rishad1997.github.io/netflix/">
+                  <img onMouseEnter={handleHover} src={Netflix} alt="ss" />
+                  <p style={{ textAlign: "center" }}>Netflix clone</p>
+                </a>
+              </motion.div>
+            </Col>
+            <Col
+              className="d-flex justify-content-center mb-4 image-box"
+              lg={3}
+              md={6}
+              xs={12}
             >
-              <a href="https://rishad1997.github.io/netflix/">
-                <img src={Ecommerce} alt="ss" />
-                <p style={{ textAlign: "center" }}>Ecommerce App</p>
-              </a>
-            </motion.div>
-          </Col>
-          <Col
-            className="d-flex justify-content-center mb-4 image-box"
-            lg={3}
-            md={6}
-            xs={12}
-          >
-            <motion.div
-              whileHover={{ scale: 1.1 }}
-              transition={{
-                type: "spring",
-                stiffness: 400,
-                damping: 10,
-              }}
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 400,
+                  damping: 10,
+                }}
+              >
+                <a href="https://rishad1997.github.io/netflix/">
+                  <img src={Ecommerce} alt="ss" />
+                  <p style={{ textAlign: "center" }}>Ecommerce App</p>
+                </a>
+              </motion.div>
+            </Col>
+            <Col
+              className="d-flex justify-content-center mb-4 image-box"
+              lg={3}
+              md={6}
+              xs={12}
             >
-              <a href="https://rishad1997.github.io/Simon-Game/">
-                <img src={Game} alt="ss" />
-                <p style={{ textAlign: "center" }}>Memmory Game</p>
-              </a>
-            </motion.div>
-          </Col>
-        </Row>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 400,
+                  damping: 10,
+                }}
+              >
+                <a href="https://rishad1997.github.io/Simon-Game/">
+                  <img src={Game} alt="ss" />
+                  <p style={{ textAlign: "center" }}>Memmory Game</p>
+                </a>
+              </motion.div>
+            </Col>
+          </Row>
+        </Slide>
       </div>
-      <Footer />
+      <div className="footerAdjust">
+        <Footer />
+      </div>
     </motion.div>
   );
 }
