@@ -32,8 +32,8 @@ function Contact() {
           <b>Contact me</b>
         </h2>
         <Row style={{ marginLeft: "0" }}>
-          <Slide left>
-            <Col xs={12} lg={6}>
+          <Col xs={12} lg={6}>
+            <Slide left>
               <p>
                 <b>Get in touch</b>
               </p>
@@ -74,12 +74,14 @@ function Contact() {
                   </td>
                 </tr>
               </table>
-            </Col>
+            </Slide>
+          </Col>
 
-            <Col xs={12} lg={6}>
+          <Col xs={12} lg={6}>
+            <Slide left>
               <Forminfo />
-            </Col>
-          </Slide>
+            </Slide>
+          </Col>
         </Row>
       </div>
       <div className="footerAdjust">

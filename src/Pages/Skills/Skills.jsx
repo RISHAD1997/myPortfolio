@@ -28,8 +28,8 @@ function Skills() {
       <h2 className="skill-heading">My Skills</h2>
       <div className="skills">
         <Row>
-          <Slide left>
-            <Col xs={12} lg={6} className="description">
+          <Col xs={12} lg={6} className="description">
+            <Slide left>
               <div>
                 <p>
                   <b>My creative skills and experience</b>
@@ -43,12 +43,14 @@ function Skills() {
                 <hr style={{ color: "#CFD2CF" }} />
                 <p>Technical skills are given below.</p>
               </div>
-            </Col>
+            </Slide>
+          </Col>
 
-            <Col xs={12} lg={6}>
+          <Col xs={12} lg={6}>
+            <Slide left>
               <Skillbar />
-            </Col>
-          </Slide>
+            </Slide>
+          </Col>
         </Row>
       </div>
       <div className="footerAdjust">
