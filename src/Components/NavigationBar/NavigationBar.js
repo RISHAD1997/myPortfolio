@@ -23,16 +23,16 @@ function NavigationBar() {
           <Nav className="me-auto"></Nav>
           <Nav>
             <NavLink to={"/About"} className="navLink">
-              About me{" "}
+              About me
             </NavLink>
             <NavLink to={"/Skills"} className="navLink">
-              Skills{" "}
+              Skills
             </NavLink>
             <NavLink to={"/Projects"} className="navLink">
-              Project{" "}
+              Projects
             </NavLink>
             <NavLink to={"/Contact"} className="navLink">
-              Contact{" "}
+              Contact
             </NavLink>
           </Nav>
         </Navbar.Collapse>
