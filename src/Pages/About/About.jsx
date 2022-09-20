@@ -26,7 +26,7 @@ function About() {
       <NavigationBar />
       <div className="about">
         <h2 style={{ marginBottom: "5%", fontWeight: "bold" }}>About</h2>
-        <Slide bottom>
+        <Slide left>
           <p>
             Every person has their own unique story. Here is a glimpse into
             mine.
