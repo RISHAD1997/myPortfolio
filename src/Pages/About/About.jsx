@@ -5,7 +5,7 @@ import CV from "./Resume.pdf";
 import { motion } from "framer-motion";
 import "./About.css";
 import Footer from "../../Components/Footer/Footer";
-import Pulse from "react-reveal/Pulse";
+import Slide from "react-reveal/Slide";
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
       <NavigationBar />
       <div className="about">
         <h2 style={{ marginBottom: "5%", fontWeight: "bold" }}>About</h2>
-        <Pulse>
+        <Slide left>
           <p>
             <span>
               Every person has their own unique story. Here is a glimpse into
@@ -43,7 +43,7 @@ function About() {
             Now, I’m looking to leverage everything I’ve learned and get some
             hands-on work experience.
           </p>
-        </Pulse>
+        </Slide>
         <a href={CV} download="Resume" className="download-link">
           <Button variant="danger" className="download-button">
             Download CV
